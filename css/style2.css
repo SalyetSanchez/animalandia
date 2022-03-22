@@ -206,3 +206,26 @@ footer{
     margin: 10px;
     text-align: center;
 }
+
+/*servicios*/
+
+#services{
+    display: flex;
+    padding: 2em;
+}
+.service{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.img-services{
+    margin-right: 1em;
+}
+.img-services img{
+    width: 150px;
+}
+.text-services h3{
+    color: var(--dark-color);
+    font-size: 24px;
+}
