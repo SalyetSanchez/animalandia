@@ -212,8 +212,10 @@ footer{
 #services{
     display: flex;
     padding: 2em;
+    flex-wrap: wrap;
 }
 .service{
+    width: 47%;
     display: flex;
     align-items: center;
     margin: 0px 15px;
@@ -228,4 +230,74 @@ footer{
 .text-services h3{
     color: var(--dark-color);
     font-size: 24px;
+}
+/*contactanos*/
+
+#maps{
+    display: flex;
+    padding: 2em;   
+    justify-content: space-around; 
+}
+
+.map{
+    max-width: 300px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.img-map img{
+    max-width: 300px;
+    width: 100%;
+}
+
+#forms{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.form{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#boton{
+    width: 10%;
+    padding-top: 80px;
+
+}
+.boton-contac button{
+    display: flex;
+    background: linear-gradient(#00b2b1,#016e6e);
+    border-color: var(--blue-color);
+    color: var(--white-color);
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    color: var(--purpple-color);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.boton-contac button:hover{
+    background: linear-gradient(#016e6e,#00b2b1);
+    transition: all 1s ease 1s;
+    color: var(--purpple-color);
+}
+
+input{
+    background-color: rgb(238, 232, 232);
+    border: none;
+    border-radius: 5px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.contactaremos{
+    padding: 20px;
+    text-shadow: 1px 1px 1px var(--gray-color);
 }
