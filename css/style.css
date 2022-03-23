@@ -20,7 +20,7 @@ p{
 
 #login{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -87,4 +87,7 @@ p{
     text-align: center;
     color: var(--blue-color);
     font-size: 0.9rem;
+}
+.logo{
+    height: 280px;
 }
