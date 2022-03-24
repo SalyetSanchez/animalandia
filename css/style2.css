@@ -393,12 +393,111 @@ header{
     margin: 3px;
 }
 
-.item1{
-
-}
 
 .contenido{
     flex-basis: 80%;
     background-color: var(--light-color);
     padding: 20px;
+}
+
+/*producto*/
+
+.tabla-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabla-intro img{
+    max-width: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--light-color);
+}
+.btn-azul,.btn-morado{
+    padding: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--light-color);
+    border-radius: 5%;
+}
+
+.btn-azul{
+    background-color: var(--blue-color);
+}
+
+.btn-morado{
+    background-color: var(--purpple-color);
+}
+
+.tabla-intro h1{
+    color: var(--dark-color);
+    font-family: 'Lato', sans-serif;
+}
+
+.frm-busqueda{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.frm-busqueda input[type="text"]{
+    flex-basis: 80%;
+    padding: 10px;
+    border: 2px solid var(--dark-color);
+}
+
+.frm-busqueda button{
+    flex-basis: 20%;
+    margin-left: 20px;
+}
+
+table{
+    width: 100%;
+    border: 2px solid var(--dark-color);
+    border-collapse: collapse;
+}
+
+table th{
+    border: 2px solid var(--dark-color);
+    background-color: var(--purpple-color);
+    color: var(--white-color);
+    padding: 7px 0;
+}
+
+table td{
+    border: 2px solid var(--dark-color);
+    text-align: center;
+}
+
+.form-input1{
+    border: 1px solid var(--dark-color);
+    margin: 20px;
+}
+
+.form-label{
+    color: var(--purpple-color);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.form-button{
+    margin: 20px;
+}
+
+.form-select{
+    width: 100%;
+    margin: 20px;
+    background-color: rgb(238, 232, 232);
+    border: none;
+    border-radius: 5px;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid var(--dark-color);
+}
+
+.form-producto{
+    max-width: 800px;
+    margin: 0 auto;
 }
