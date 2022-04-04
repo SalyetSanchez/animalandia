@@ -208,6 +208,10 @@ footer{
     margin: 10px;
     text-align: center;
 }
+#carouselExampleInterval img{
+    width: 100%;
+    height: 700px;
+}
 
 /*servicios*/
 
