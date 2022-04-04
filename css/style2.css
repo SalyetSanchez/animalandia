@@ -654,3 +654,6 @@ table td{
         flex-direction: row;
     }
 }
+.carousel-item{
+    data-bs-interval="2s"
+}
