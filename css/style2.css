@@ -545,6 +545,14 @@ table td{
     .foot p{
         text-align: center;
     }
+    #equipos{
+        flex-direction: column;
+        text-align: center;
+    }
+    #maps{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width:320px) {
@@ -590,6 +598,14 @@ table td{
     .foot p{
         text-align: center;
     }
+    #equipos{
+        flex-direction: column;
+        text-align: center;
+    }
+    #maps{
+        flex-direction: column;
+        align-items: center;
+    }
 }
     
 @media screen and (min-width:1024px) {
@@ -630,5 +646,11 @@ table td{
     }
     .foot p{
         text-align: center;
+    }
+    #equipos{
+        flex-direction: row;
+    }
+    #maps{
+        flex-direction: row;
     }
 }
